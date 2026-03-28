@@ -8,7 +8,7 @@ import math
 import itertools
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
-st.set_page_config(page_title="Stress Tester GODMODE", layout="wide")
+st.set_page_config(page_title="Stress Tester", layout="wide")
 
 # ─────────────────────────────────────────────
 #  CSS
