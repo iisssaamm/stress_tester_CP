@@ -8,7 +8,7 @@ import math
 import itertools
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
-st.set_page_config(page_title="Stress Tester GODMODE", layout="wide")
+st.set_page_config(page_title="Stress Tester", layout="wide")
 
 # ─────────────────────────────────────────────
 #  CSS
@@ -36,7 +36,7 @@ div[data-testid="stExpander"] { border: 1px solid #333366; border-radius: 6px; b
 </style>
 """, unsafe_allow_html=True)
 
-st.title("⚡ STRESS TESTER GODMODE")
+st.title("⚡ STRESS TESTER")
 st.caption("Every edge case. Every structure. Every distribution.")
 
 # ─────────────────────────────────────────────
